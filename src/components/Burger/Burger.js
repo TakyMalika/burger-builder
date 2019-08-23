@@ -1,5 +1,4 @@
 import React from 'react';
-import {withRoute} from 'react-router-dom';
 
 import classes from './Burger.module.css';
 import BurgerIngredient from './BurgerIngredients/BurgerIngredient';
