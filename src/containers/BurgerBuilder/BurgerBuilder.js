@@ -22,7 +22,6 @@ class BurgerBuilder extends Component {
     }
 
     componentDidMount () {
-        console.log(this.props);
         this.props.onInitIngredient();
     }
 
@@ -56,7 +55,6 @@ class BurgerBuilder extends Component {
     }
     
     render () {
-        // console.log(this.state);
         const disabledInfo = {
             ...this.props.ings
         };
